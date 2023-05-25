@@ -1,0 +1,70 @@
+.NavBar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navL {
+    width: 30%;
+    height: 100%;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    padding-top: 10px;
+
+    background-color: #c4fff9;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+}
+
+.navR {
+    width: 30%;
+    height: 100%;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+    padding: 10px;
+    padding-top: 10px;
+    color: #c4fff9;
+}
+
+.repro {
+    width: 100%;
+    height: 100%;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  background-color: #D2286B;
+  color: #fff;
+  border-radius: 999px;
+}
+  audio::-webkit-media-controls-panel {
+    background-color: #D2286B;
+  }
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #ffffff;
+  }
+.isotipo {
+    width: 60px;
+    transition: all 0.3s ease;
+}
+.home {
+    font-size: 30px;
+    margin-right: 40px;
+    transition: all 0.3s ease;
+}

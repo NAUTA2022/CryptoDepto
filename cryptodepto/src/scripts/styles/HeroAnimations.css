@@ -1,0 +1,63 @@
+.edificiouno:hover {
+    filter: drop-shadow(0 -20px 20px rgba(255, 255, 0, 0.2));
+    cursor: pointer;
+    cursor: url('../../assets/pointer.png'), auto;
+}
+.edificiodos:hover {
+    filter: drop-shadow(0 -20px 20px rgba(255, 255, 0, 0.2));
+    cursor: pointer;
+    cursor: url('../../assets/pointer.png'), auto;
+}
+.edificiotres:hover {
+    filter: drop-shadow(0 -20px 20px rgba(255, 255, 0, 0.2));
+    cursor: pointer;
+    cursor: url('../../assets/pointer.png'), auto;
+}
+.edificiocuatro:hover {
+    filter: drop-shadow(0 -20px 20px rgba(255, 255, 0, 0.2));
+    cursor: pointer;
+    cursor: url('../../assets/pointer.png'), auto;
+}
+
+@keyframes move {
+    0% {
+    transform: translateY(1%) scale3d(1.02 , 0.98 , 1.0);
+    }
+    50% {
+    transform: translateY(0%) scale3d(1.0 , 1.0 , 1.0);
+    }
+    100% {
+    transform: translateY(1%) scale3d(1.02 , 0.98 , 1.0);
+    }
+}
+
+@keyframes sea {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes colors {
+    0% {
+    filter: drop-shadow(0 100px 200px rgb(153, 255, 255));
+    }
+    25% {
+        filter: drop-shadow(0 100px 200px rgb(0, 204, 255));
+    }
+    50% {
+        filter: drop-shadow(0 100px 200px rgb(0, 103, 129));
+        transform: translateY(5px);
+    }
+    75% {
+        filter: drop-shadow(0 100px 200px rgb(0, 204, 255));
+    }
+    100% {
+        filter: drop-shadow(0 100px 200px rgb(153, 255, 255));
+    }
+}

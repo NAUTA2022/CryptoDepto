@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContainer {
+  z-index: 1;
+  margin-top: 100px;
+  width: 90vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbarContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

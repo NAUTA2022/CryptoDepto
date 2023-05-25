@@ -1,0 +1,52 @@
+.suelo {  
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    margin-top: 0;
+    z-index: 1;
+    animation: colors 5s linear infinite;
+}
+.edificiouno {
+    position: absolute;
+    top: 10px; /* Ajusta la posición verticalmente */
+    left: 180px; /* Ajusta la posición horizontalmente */
+    width: 20%;
+    animation: move 1s linear infinite;
+    z-index: 11;
+    transition: all 0.3s ease;
+}
+.edificiodos {
+    position: absolute;
+    top: 10px; /* Ajusta la posición verticalmente */
+    left: 90px; /* Ajusta la posición horizontalmente */
+   
+    width: 25%;
+    margin: 0;
+    animation: move 1s linear infinite;
+    z-index: 12;
+    transition: all 0.3s ease;
+}
+
+.edificiotres {
+    position: absolute;
+    top: -30px; /* Ajusta la posición verticalmente */
+    left: 260px; /* Ajusta la posición horizontalmente */
+   
+    width: 20%;
+    margin: 0;
+    animation: move 1s linear infinite;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+.edificiocuatro {
+    position: absolute;
+    top: 120px; /* Ajusta la posición verticalmente */
+    left: 320px; /* Ajusta la posición horizontalmente */
+   
+    width: 20%;
+    margin: 0;
+    animation: move 1s linear infinite;
+    z-index: 12;
+    transition: all 0.3s ease;
+}

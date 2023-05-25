@@ -1,0 +1,12 @@
+.isotipo:hover {
+    transform: rotate(10deg);
+    cursor: pointer;
+    cursor: url('../../assets/pointer.png'), auto;
+}
+.home:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 0.08)) 
+    drop-shadow(0 5px 12px rgba(255, 255, 255, 0.08));
+    cursor: pointer;
+    cursor: url('../../assets/pointer.png'), auto;
+}
